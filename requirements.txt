@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+matplotlib
+seaborn
+psycopg2-binary
+streamlit
+requests
+python-dotenv
+sqlalchemy
+langchain-community
+langchain_ollama
+faiss-cpu
