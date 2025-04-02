@@ -22,7 +22,7 @@ This project is an interactive system that processes hotel booking data, generat
 - **FAISS:** Efficient vector search and storage for retrieving insights.
 
 ## Architecture Design
-![System Architecture Design](images/Hotel Booking Architecture.png)
+![System Architecture Design](images/hotel_booking_architecture.png)
 
 ## Installation and Setup
 
