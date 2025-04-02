@@ -64,14 +64,14 @@ pip install -r requirements.txt
      
 5. *Run the application*
 
-1. *Start the Backend:*
+*Start the Backend:*
 
    ```bash
    cd backend
    uvicorn main:app --reload
    ```
 
-2. *Run the Frontend:*
+*Run the Frontend:*
 
    ```bash
    cd frontend
