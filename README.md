@@ -21,6 +21,8 @@ This project is an interactive system that processes hotel booking data, generat
 - **Ollama Embedding Model (nomic-embed-text):** Advanced text encoder for accurate embeddings.
 - **FAISS:** Efficient vector search and storage for retrieving insights.
 
+## Architecture Design
+![System Architecture Design](images/Hotel Booking Architecture.png)
 
 ## Installation and Setup
 
