@@ -22,7 +22,7 @@ This project is an interactive system that processes hotel booking data, generat
 - **FAISS:** Efficient vector search and storage for retrieving insights.
 
 ## Architecture Design
-![System Architecture Design](images/Hotel Booking Architecture.png)
+![System Architecture Design](images/hotel_booking_architecture.png)
 
 ## Installation and Setup
 
@@ -64,14 +64,14 @@ pip install -r requirements.txt
      
 5. *Run the application*
 
-1. *Start the Backend:*
+*Start the Backend:*
 
    ```bash
    cd backend
    uvicorn main:app --reload
    ```
 
-2. *Run the Frontend:*
+*Run the Frontend:*
 
    ```bash
    cd frontend
