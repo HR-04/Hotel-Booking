@@ -34,44 +34,44 @@ Ensure you have the following installed:
 - pip (Python package manager)
 - Ollama software
 - PostgreSQL
-- Hotel Booking Dataset
+- Hotel Booking Dataset [ hotel_bookings_sampled_5k.csv ] 
 
 ### Step-by-Step Guide
 
-1. *Clone the Repository*
+1. **Clone the Repository**
 
    ```bash 
    git clone https://github.com/HR-04/Hotel-Booking.git
    cd Hotel-Booking
    ```
-2. *Create a Virtual Environment* (Recommended)
+2. **Create a Virtual Environment** (Recommended)
    
    ```bash 
    python -m venv myenv
    source myenv/bin/activate  # On Windows: myenv\Scripts\activate
    ```
-3. *Install Dependencies*
+3. **Install Dependencies**
    
 ```bash
 pip install -r requirements.txt
 ```
    
-4. *Set Up ollama and PostgreSQL DB*
+4. **Set Up ollama and PostgreSQL DB**
 
-  - ollama pull phi4:latest [ your choice ]
-  - ollama pull nomic-embed-text
-  - Insert data in PostgreSQL
+  - Ollama pull phi4:latest [ Your Choice ]
+  - Ollama pull nomic-embed-text [ Your Choice ] 
+  - Create a Table and Insert data in PostgreSQL [ hotel_bookings_sampled_5k.csv ] 
      
-5. *Run the application*
+5. **Run the application**
 
-*Start the Backend:*
+- *Start the Backend:*
 
    ```bash
    cd backend
    uvicorn main:app --reload
    ```
 
-*Run the Frontend:*
+- *Run the Frontend:*
 
    ```bash
    cd frontend
@@ -79,7 +79,7 @@ pip install -r requirements.txt
    ```
 
    
-6. *Access the Application*
+6. **Access the Application**
    - Open your browser and go to http://localhost:8501
 
 
