@@ -17,7 +17,7 @@ if "selected_chart" not in st.session_state:
 API_ENDPOINT = "http://localhost:8000/api"
 
 # ---- HEADER ----
-st.title("Hotel Booking Assistant 🛎️🛋️")
+st.title("LLM-Powered Booking Analytics & QA System 🛎️🛋️")
 st.caption(f"Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 
 # ---- SIDEBAR CONTROLS ----
